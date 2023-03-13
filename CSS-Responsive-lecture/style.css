@@ -1,0 +1,47 @@
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+}
+
+div:first-child {
+  border: 3px solid sienna;
+  background-image: url('https://image.api.playstation.com/vulcan/ap/rnd/202107/3100/9v9q3P2LuokLyI0Tsp4hHq9G.png');
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+body > div:last-of-type {
+  margin-top: 2em;
+  background-color: greenyellow;
+}
+
+p {
+  border: 3px dotted rebeccapurple;
+  font-size: 10px;
+  /* width: 100%; */
+  padding: 1em;
+}
+
+p:first-child {
+  position: relative;
+  left: 10%;
+}
+
+p:last-child {
+  padding: 1em;
+  max-width: 600px;
+}
+
+@media only screen and (min-width: 500px) {
+  body > div:last-of-type {
+    border: 3px solid sienna;
+    background-color: dodgerblue;
+    display: flex;
+  }
+}

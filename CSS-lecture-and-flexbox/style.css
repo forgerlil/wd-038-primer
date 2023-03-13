@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body .myPElement {
+  color: blue;
+}
+
+#myVeryImportantParagraph {
+  color: cornflowerblue;
+}
+
+.myPElement {
+  color: red;
+}
+
+body p {
+  color: blue;
+} */
+
+/* .myOtherClass { */
+/* border: 2px solid purple; */
+/* padding: 10px; */
+/* width: 400px; */
+/* height: 100px; */
+/* margin: 50px; */
+/* background-color: darkcyan; */
+/* margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto; */
+/* } */
+
+span {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 2px;
+  border: 1px dotted coral;
+}
+
+span:last-of-type {
+  float: right;
+}
+
+.wrapperUL {
+  border: 2px dotted red;
+  padding: 20px;
+  overflow: hidden;
+  background-color: darkcyan;
+
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column-reverse; */
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.thirdP {
+  flex-shrink: 2;
+  /* align-self: flex-start; */
+  /* position: fixed; */
+  /* top: 20px; */
+}
+
+/* .firstP {
+  display: flex;
+  align-items: center;
+} */
+
+/* .grandchild {
+  border: 1px dashed black;
+} */
+
+.importantSpan {
+  position: sticky;
+  top: 0;
+}

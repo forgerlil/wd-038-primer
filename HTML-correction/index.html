@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Sport Picker</legend>
+        <label for="sportpicker">Select your sport</label>
+        <select id="sportpicker" required>
+          <option value="rugby">Rugby</option>
+          <option value="soccer">Soccer</option>
+          <option value="golf">Golf</option>
+        </select>
+        <span>*</span>
+        <hr />
+        <label for="timepicker">Select your time</label>
+        <input type="datetime-local" id="timepicker" required />
+        <span>*</span>
+        <hr />
+        <label for="rugby">Rugby</label>
+        <input type="radio" id="rugby" name="sport" value="rugby" required />
+        <label for="soccer">Soccer</label>
+        <input type="radio" id="soccer" name="sport" value="soccer" />
+        <label for="golf">Golf</label>
+        <input type="radio" id="golf" name="sport" value="golf" />
+        <button>Confirm choices</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

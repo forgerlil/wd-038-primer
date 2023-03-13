@@ -1,0 +1,80 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap'); */
+
+:root {
+  --medium-brown: #d4a373;
+  --ivory: #faedcd;
+  --light-green: #ccd5ae;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+body {
+  background-color: teal;
+}
+
+.window {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: lightgray;
+  width: 400px;
+  border: 2px outset black;
+  /* border-top: 2px solid white;
+  border-left: 2px solid white; */
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  background: linear-gradient(90deg, rgb(40, 40, 161), rgb(114, 166, 255));
+  color: white;
+  font-weight: 700;
+  padding: 0.3em 1em;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  padding: 1.5em 1em;
+}
+
+.content img {
+  width: 10%;
+}
+
+.content p {
+  padding-left: 1em;
+}
+
+button {
+  border: 2px outset black;
+  background-color: transparent;
+  margin: 1em;
+  padding: 0.2em 0.5em;
+  width: fit-content;
+  align-self: flex-end;
+}
+
+button:active {
+  border: 2px inset black;
+  transform: translate(1px, 1px);
+}
+
+/* header {
+  background-color: var(--medium-brown);
+  color: var(--ivory);
+}
+
+hero {
+  color: var(--ivory);
+}
+
+footer {
+  background-color: var(--medium-brown);
+} */
