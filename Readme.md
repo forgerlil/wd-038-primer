@@ -107,7 +107,7 @@ VSCode extension, Quokka: https://marketplace.visualstudio.com/items?itemName=Wa
 - Understanding compilation vs interpretation: https://youtu.be/HktWin_LPf4?t=392 watch until 8:56
 - JavaScript performance and language feature implications: https://www.youtube.com/watch?v=HktWin_LPf4&t=156s watch until 4:18.
 
-## Day 09
+## Day 10
 
 - Kata suggestions:
   - String manipulation: https://www.codewars.com/kata/57eae20f5500ad98e50002c5
