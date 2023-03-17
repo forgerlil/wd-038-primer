@@ -106,3 +106,14 @@ VSCode extension, Quokka: https://marketplace.visualstudio.com/items?itemName=Wa
 - A little of JavaScript history - https://matcha.fyi/javascript-history/
 - Understanding compilation vs interpretation: https://youtu.be/HktWin_LPf4?t=392 watch until 8:56
 - JavaScript performance and language feature implications: https://www.youtube.com/watch?v=HktWin_LPf4&t=156s watch until 4:18.
+
+## Day 09
+
+- Kata suggestions:
+  - String manipulation: https://www.codewars.com/kata/57eae20f5500ad98e50002c5
+  - ES6 String addition: https://www.codewars.com/kata/582e4c3406e37fcc770001ad
+  - Array manipulation #1: https://www.codewars.com/kata/54edbc7200b811e956000556
+  - Array manipulation #2: https://www.codewars.com/kata/559d2284b5bb6799e9000047
+  - Even or Odd (interacting with numbers): https://www.codewars.com/kata/53da3dbb4a5168369a0000fe
+- _From Stefan_ JavaScript cheatsheet: https://htmlcheatsheet.com/js/
+- Motivational on learning to code: https://www.youtube.com/watch?v=NtfbWkxJTHw
